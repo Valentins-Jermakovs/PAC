@@ -35,6 +35,8 @@ async def favicon():
 #                           FastAPI serviss
 # =========================================================================
 
+# This is for active branch
+
 @app.get("/")
 async def root():
     return {"message": "Hello, world!"}
